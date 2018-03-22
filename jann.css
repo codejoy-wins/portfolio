@@ -47,6 +47,8 @@ I'm going to use a
 #header h2{
     display:inline;
     margin-left:500px;
+    font-size:110%;
+    font-weight:bold;
 }
 #bio h1{
     color:white;
@@ -59,17 +61,37 @@ I'm going to use a
 .box{
     background-color:#888694;
     display:inline-block;
-    width:248px;
+    width:265px;
     height:200;
-    margin:20px;
+    margin:10px;
+    vertical-align: top;
 }
 .box img{
-    width:248px;
+    width:265px;
 }
 .box h1{
+    color:white;
     width:200px;
+    padding:10px;
 }
 .box p{
     background-color:white;
     color:black;
+}
+#tech{
+    background-color:green;
+}
+.tech{
+    background-color:white;
+    display:inline-block;
+    width:265px;
+    margin:10px;
+}
+.tech h1{
+    color:white;
+    background-color: #888694;
+    padding:10px;
+}
+.tech img{
+    width:40px;
 }
