@@ -27,7 +27,7 @@ I'm going to use a
     background-color:#888694;
     display: inline-block;
     vertical-align: top;
-    width:35%;
+    width:400px;
     margin-top:40px;
 }
 #footer{
@@ -50,13 +50,26 @@ I'm going to use a
 }
 #bio h1{
     color:white;
+    padding:10px;
 }
 #bio p{
     background-color:white;
+    padding:10px;
 }
 .box{
     background-color:#888694;
     display:inline-block;
-    width:20%;
+    width:248px;
     height:200;
+    margin:20px;
+}
+.box img{
+    width:248px;
+}
+.box h1{
+    width:200px;
+}
+.box p{
+    background-color:white;
+    color:black;
 }
