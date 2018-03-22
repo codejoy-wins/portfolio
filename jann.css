@@ -21,7 +21,7 @@ I'm going to use a
 }
 #header{
     background-color:#fafafa;
-    padding:10px;
+    padding:17px;
 }
 #bio{
     background-color:#888694;
@@ -31,8 +31,9 @@ I'm going to use a
     margin-top:40px;
 }
 #footer{
-    vertical-align:bottom;
     background-color:#fafafa;
+    display:block;
+    text-align:center;
 }
 #picture{
     display:inline-block;
@@ -40,9 +41,15 @@ I'm going to use a
     border-color:blue;
     padding:40px;
 }
+#picture img{
+    width: 400px;
+    border: solid #c0c0c0 5px;
+}
 #header h1{
-    font-size:140%;
+    font-size:200%;
+    font-weight: bold;
     display:inline;
+    margin-left:10px;
 }
 #header h2{
     display:inline;
@@ -51,6 +58,7 @@ I'm going to use a
     font-weight:bold;
 }
 #bio h1{
+    font-size:117%;
     color:white;
     padding:10px;
 }
@@ -70,6 +78,7 @@ I'm going to use a
     width:265px;
 }
 .box h1{
+    font-size:117%;
     color:white;
     width:200px;
     padding:10px;
@@ -79,7 +88,7 @@ I'm going to use a
     color:black;
 }
 #tech{
-    background-color:green;
+    background-color:#6f5963;
 }
 .tech{
     background-color:white;
@@ -88,10 +97,37 @@ I'm going to use a
     margin:10px;
 }
 .tech h1{
+    font-size:117%;
     color:white;
     background-color: #888694;
     padding:10px;
 }
 .tech img{
-    width:40px;
+    width:35px;
+    padding:2px;
+    margin-left:10px;
+    padding-bottom:10px;
+}
+#footer h1{
+    padding:10px;
+}
+#footer img{
+    width:30px;
+    vertical-align: middle;
+}
+#footer a{
+    padding:5px;
+}
+#bio a{
+    color:black;
+}
+.tech h2{
+    color:white;
+    background-color:#407c61;
+    display:inline-block; 
+    margin-left:77px;
+    border-radius:10px;
+    padding:4px;
+    border: solid black 1px;
+    margin-bottom:17px;
 }
