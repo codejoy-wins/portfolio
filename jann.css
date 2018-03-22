@@ -27,6 +27,7 @@ I'm going to use a
     background-color:#888694;
     display: inline-block;
     vertical-align: auto;
+    width:35%;
 }
 #footer{
     vertical-align:bottom;
@@ -51,4 +52,10 @@ I'm going to use a
 }
 #bio p{
     background-color:white;
+}
+.box{
+    background-color:#888694;
+    display:inline-block;
+    width:20%;
+    height:200;
 }
