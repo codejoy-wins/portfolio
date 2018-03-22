@@ -26,8 +26,9 @@ I'm going to use a
 #bio{
     background-color:#888694;
     display: inline-block;
-    vertical-align: auto;
+    vertical-align: top;
     width:35%;
+    margin-top:40px;
 }
 #footer{
     vertical-align:bottom;
