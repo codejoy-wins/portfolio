@@ -1,0 +1,54 @@
+/* 
+---COLORS----------
+color = #6f5963  for wrapper 
+color = #888694  for silver tabs
+color = #fafafa  for header
+
+I'm going to use a
+
+1. wrapper div
+2. picture div
+3. bio div     (in-line blocks)
+4. 3 box divs
+5. Tech boxs
+6. Header
+7. Footer
+*/
+#wrapper{
+    background-color:#6f5963;
+    width:970px;
+    margin: 0 auto;
+}
+#header{
+    background-color:#fafafa;
+    padding:10px;
+}
+#bio{
+    background-color:#888694;
+    display: inline-block;
+    vertical-align: auto;
+}
+#footer{
+    vertical-align:bottom;
+    background-color:#fafafa;
+}
+#picture{
+    display:inline-block;
+    border:10px;
+    border-color:blue;
+    padding:40px;
+}
+#header h1{
+    font-size:140%;
+    display:inline;
+}
+#header h2{
+    display:inline;
+    margin-left:500px;
+}
+#bio h1{
+    color:white;
+}
+#bio p{
+    background-color:white;
+}
